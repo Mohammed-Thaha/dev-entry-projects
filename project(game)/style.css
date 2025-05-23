@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#06a847f7;
+    color:white;
+    box-sizing: border-box;
+}
+/*Basic garbage attribute remove*/
+li{
+    list-style-type: none;
+    cursor:pointer;
+}
+main,.game-component{
+    text-align: center;
+}
+/* Try to maintain the whole thing in center */
+main{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+main h1{
+    margin-bottom:30px;
+}
+.game-component{
+    width:50%;
+    height:50%;
+    /* border:1px solid red; */
+}
+.user-container{
+    display:flex;
+    flex-direction:row;
+    /* border:1px solid red; */
+}
+.display{
+    width:505;
+    height:505;
+    /* border:1px solid red; */
+}
+@media only screen and (max-width:600px){
+    li{
+        cursor:none;
+    }
+    main{
+        width:600px;
+        height:600px;
+        display:flex;
+        align-items:center;
+        position:relative;
+    }
+    main,h1{
+        font-size:15px;
+        font-weight: bold;
+    }
+    img{
+        width:100px;
+    }
+    .user-container{
+        width:100%;
+        height:100vh;
+        /* border:1px solid red; */
+    }
+    .game-component{
+        width:50%;
+        height:50%;
+        /* border:1px solid red; */
+    }
+    .display{
+        position:absolute;
+        bottom:120px;
+        right:50px;
+        left:50px;
+    }
+    .query_change{
+        
+        position:absolute;
+        top:350px;
+        right:50px;
+        left:50px;
+    }
+    #show_winner{
+       position:absolute;
+       top:500px;
+       left:200px;
+    }
+}

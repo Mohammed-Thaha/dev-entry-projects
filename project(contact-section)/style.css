@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    /* outline: 1px solid red; */
+}
+footer{
+   width:100%;
+   height:100vh;
+   background-image: url(./assets/images/bgc-footer.gif);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position:right;
+   display: flex;
+   justify-content:right;
+   align-items: center;
+}
+form{
+    width:600px;
+    height:400px;
+    margin-right:50px;
+    background:linear-gradient(135deg,#FFF6DC,#ffc35c90,#fff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    gap:10px;
+    border-radius: 12px;
+    outline:0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contact-input{
+    width:200px;
+    height:30px;   
+}
+.contact-input, textarea, .contact-btn{
+    border-radius:12px;
+    padding:2px;
+    outline: 0;
+    border:0;
+}
+textarea{
+    width:200px;
+    height:100px;
+    resize: none;
+}
+.contact-btn{
+    margin-top:10px;
+    width:100px;
+    height:30px;
+    color:white;
+    background-color:#34B6CF;
+}

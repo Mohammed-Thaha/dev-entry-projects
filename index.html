@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #1e272e;
+        }
+
+        header {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 600;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 3rem 2rem;
+        }
+
+        .project-card {
+            background-color: #ffffff;
+            border-radius: 14px;
+            padding: 1.5rem 1.2rem;
+            width: 260px;
+            text-align: center;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+            background: #3498db;
+            color: white;
+        }
+
+        .project-card:hover::after {
+            content: " →";
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .project-card {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Project Showcase</h1>
+    </header>
+    <div class="container">
+        <a class="project-card" href="./project(bar-code-generator)/index.html">Barcode Generator</a>
+        <a class="project-card" href="./project(Book-Explorer)/Book-Finder/book-seek/index.html">Book Finder</a>
+        <a class="project-card" href="./Project(calculator)/index.html">Simple Calculator</a>
+        <a class="project-card" href="./project(card)/index.html">Profile Card UI</a>
+        <a class="project-card" href="./project(career_chatbot)/index.html">Career Chatbot</a>
+        <a class="project-card" href="./project(contact-section)/index.html">Contact Section</a>
+        <a class="project-card" href="./project(css_loading_animation)/index.html">CSS Loading Animation</a>
+        <a class="project-card" href="./project(currency_converter)/index.html">Currency Converter</a>
+        <a class="project-card" href="./project(game)/index.html">Mini Game</a>
+        <a class="project-card" href="./project(js_cart)/index.html">JS Shopping Cart</a>
+        <a class="project-card" href="./project(Nav-bar)/index.html">Modern NavBar</a>
+        <a class="project-card" href="./project(navbar)/index.html">Classic NavBar</a>
+        <a class="project-card" href="./project(own_design)/index.html">Custom UI Design</a>
+        <a class="project-card" href="./project(Age_calculator)/index.html">Age Calculator</a>
+        <a class="project-card" href="./project(qrcode_generator)/index.html">QR Code Generator</a>
+        <a class="project-card" href="./project(sairam_website)/index.html">College Website</a>
+        <a class="project-card" href="./project(tic-tac-toe)/tic-tac-toe/index.html">Tic-Tac-Toe Game</a>
+        <a class="project-card" href="./project(text-to-speech)/index.html">Speech Generator</a>
+        <a class="project-card" href="./responsive_website/responsive_website/index.html">Responsive Site</a>
+    </div>
+</body>
+
+</html>

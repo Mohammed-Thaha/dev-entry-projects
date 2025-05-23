@@ -1,0 +1,84 @@
+{
+  "space": {
+    "related_careers": [
+      {
+        "job_title": "Astronaut",
+        "description": "Participates in space missions."
+      },
+      {
+        "job_title": "Astrophysicist",
+        "description": "Studies celestial bodies."
+      },
+      {
+        "job_title": "Space Engineer",
+        "description": "Designs spacecraft."
+      }
+    ]
+  },
+  "full_stack": {
+    "related_careers": [
+      {
+        "job_title": "Full Stack Developer",
+        "description": "Develops both client-side and server-side applications."
+      },
+      {
+        "job_title": "Frontend Developer",
+        "description": "Focuses on the visual and interactive aspects of web applications."
+      },
+      {
+        "job_title": "Backend Developer",
+        "description": "Handles the server-side logic and database integration."
+      }
+    ]
+  },
+  "software_engineering": {
+    "related_careers": [
+      {
+        "job_title": "Software Engineer",
+        "description": "Designs and develops software applications."
+      },
+      {
+        "job_title": "DevOps Engineer",
+        "description": "Works on software development and operations."
+      },
+      {
+        "job_title": "Quality Assurance Engineer",
+        "description": "Ensures the quality of software through testing."
+      }
+    ]
+  },
+  "data_science": {
+    "related_careers": [
+      {
+        "job_title": "Data Scientist",
+        "description": "Analyzes and interprets complex data."
+      },
+      {
+        "job_title": "Data Analyst",
+        "description": "Collects and analyzes data to provide insights."
+      },
+      {
+        "job_title": "Machine Learning Engineer",
+        "description": "Develops algorithms for predictive modeling."
+      }
+    ]
+  },
+  "cybersecurity": {
+    "related_careers": [
+      {
+        "job_title": "Cybersecurity Analyst",
+        "description": "Protects systems and networks from cyber threats."
+      },
+      {
+        "job_title": "Penetration Tester",
+        "description": "Simulates cyber attacks to identify vulnerabilities."
+      },
+      {
+        "job_title": "Security Consultant",
+        "description": "Advises organizations on security measures."
+      }
+    ]
+  }
+}
+
+
